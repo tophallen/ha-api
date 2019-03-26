@@ -1,8 +1,8 @@
 import { createServer, Server } from "http";
 import * as express from "express";
 import { Express, Request, Response, NextFunction } from "express";
-import { AppOptions } from "options.interface";
-import { HAProxyRemote } from "ha-remote.service";
+import { AppOptions } from "./options.interface";
+import { HAProxyRemote } from "./ha-remote.service";
 import { json } from "body-parser";
 
 export class HAProxyAPI {
